@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/ic_file_grey"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ad_thumbnail"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:id="@+id/ad_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingEnd="4dp"
+        android:textColor="#000000"
+        android:textSize="@dimen/ad_text_size"
+        android:layout_alignBaseline="@+id/file_checkbox"
+        android:layout_alignBottom="@+id/file_checkbox"
+        android:layout_toRightOf="@+id/ad_thumbnail"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/ad_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingEnd="14dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="" />
+
+</RelativeLayout>

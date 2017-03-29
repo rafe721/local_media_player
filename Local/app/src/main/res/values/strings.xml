@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Local</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thumbnail"></string>
+
+    <!-- DB Constants -->
+    <string name="server_name">Local</string>
+    <string name="db_name">Local</string>
+    <string name="db_version">2</string>
+
+    <string name="user_agent_agent">DS_Client</string>
+
+</resources>

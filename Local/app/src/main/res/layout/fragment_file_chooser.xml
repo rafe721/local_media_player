@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp">
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+        <ImageButton
+            android:id="@+id/refresh_button"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_refresh"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_home"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+        <ImageButton
+            android:id="@+id/findSelected"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_save"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+    </GridLayout>
+
+    <ListView android:id="@+id/File_list" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
